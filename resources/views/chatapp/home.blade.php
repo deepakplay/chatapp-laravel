@@ -40,7 +40,7 @@
                             <span class="chat-last-msg">24/01/2024</span>
                         </div>
                         <span class="chat-item-msg">
-                            This is the sample message from deepak play
+                            This is the sample message from deepak play This is the sample message from deepak play
                         </span>
                     </div>
                 </div>
@@ -50,11 +50,25 @@
                     </span>
                     <div class="chat-item">
                         <div class="chat-item-info">
-                            <span>Deepak Play</span>
-                            <span>24/01/2024</span>
+                            <span class="chat-name">Deepak Play</span>
+                            <span class="chat-last-msg">24/01/2024</span>
                         </div>
                         <span class="chat-item-msg">
-                            This is the sample message from deepak play
+                            This is the sample message from deepak play This is the sample message from deepak play
+                        </span>
+                    </div>
+                </div>
+                <div class="chat-item-container">
+                    <span class="chat-img">
+                        <img src="{{ asset('assets/img/profile.png') }}" />
+                    </span>
+                    <div class="chat-item">
+                        <div class="chat-item-info">
+                            <span class="chat-name">Deepak Play</span>
+                            <span class="chat-last-msg">24/01/2024</span>
+                        </div>
+                        <span class="chat-item-msg">
+                            This is the sample message from deepak play This is the sample message from deepak play
                         </span>
                     </div>
                 </div>

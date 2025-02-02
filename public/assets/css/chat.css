@@ -79,9 +79,10 @@
     flex-wrap: nowrap;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
-.chat-container .chat-list-container .chat-lists .chat-item-container:hover{
+.chat-container .chat-list-container .chat-lists .chat-item-container:hover {
     background-color: rgb(214, 214, 214);
     transition: all .2s ease;
 }
@@ -103,28 +104,32 @@
     border: 1px solid #EAEAEA;
 }
 
-.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item{
+.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item {
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    flex:1;
+    flex: 1;
     padding: 4px 0;
     justify-content: space-between;
 }
 
-.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item .chat-item-info{
+.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item .chat-item-info {
     display: flex;
     justify-content: space-between;
 }
 
-.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item .chat-item-info .chat-last-msg{
+.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item .chat-item-info .chat-last-msg {
     color: rgb(100, 100, 100);
     font-size: 12px;
 }
 
-.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item .chat-item-msg{
+.chat-container .chat-list-container .chat-lists .chat-item-container .chat-item .chat-item-msg {
     color: rgb(100, 100, 100);
     font-size: 12px;
+    white-space: nowrap;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .chat-container .chat-msg-container {
