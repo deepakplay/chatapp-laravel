@@ -33,7 +33,7 @@
 
 
         <div class="form-actions">
-            <button class="btn" type="submit">Sign in</button>
+            <button class="btn btn-primary" type="submit">Sign in</button>
         </div>
 
         <div class="form-footer">

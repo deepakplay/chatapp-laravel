@@ -21,7 +21,7 @@
         </div>
         <div class="auth-form">
             <div class="logo-container">
-                <h1>Logo</h1>
+                <h1>ChatApp</h1>
             </div>
             @yield('content', '')
 

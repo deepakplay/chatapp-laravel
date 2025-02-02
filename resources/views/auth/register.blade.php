@@ -37,7 +37,7 @@
         </div>
 
         <div class="form-actions">
-            <button class="btn" type="submit">Create account</button>
+            <button class="btn btn-primary" type="submit">Create account</button>
         </div>
 
         <div class="form-footer">

@@ -11,7 +11,7 @@ class HomeController extends Controller
     {
         $user = Auth::user();
 
-        return view("home", [
+        return view("chatapp.home", [
             'user' => $user
         ]);
     }

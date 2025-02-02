@@ -27,17 +27,32 @@ a:hover {
 
 
 .btn {
-    background-color: rgb(231, 0, 0);
-    color: #FFF;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-
     cursor: pointer;
+    text-decoration: none !important;
 }
 
-.btn:hover {
+
+.btn-primary {
+    background-color: rgb(231, 0, 0);
+    color: #FFF;
+}
+
+.btn-primary:hover {
     background-color: rgb(175, 0, 0);
+    transition: background-color .2s ease;
+}
+
+.btn-secondary {
+    background-color: #FFF;
+    color: rgb(231, 0, 0);
+}
+
+.btn-secondary:hover {
+    background-color: rgb(255, 202, 202);
+    color: rgb(231, 0, 0);
     transition: background-color .2s ease;
 }
 

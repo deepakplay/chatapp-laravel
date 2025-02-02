@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>@yield('title', 'ChatApp')</title>
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/home.css')}}">
+    @stack('styles')
 </head>
-<body>
-    Welcome, {{$user->name}}
 
-    <a href="{{ route("auth.logout")}}">Logout</a>
+<body>
+    @include('chatapp.layout.header')
+    @yield('content')
+    @stack('scripts')
 </body>
+
 </html>
