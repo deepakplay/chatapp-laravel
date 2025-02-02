@@ -1,6 +1,6 @@
 <header>
     <div class="logo-container">
-        <h2>ChatApp</h2>
+        <h2><a href="{{ route('home') }}">ChatApp</a></h2>
     </div>
     <div class="header-content">
 

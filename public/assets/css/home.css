@@ -1,4 +1,14 @@
-header{
+* {
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
     width: 100%;
     padding: 5px 15px;
     display: flex;
@@ -7,14 +17,18 @@ header{
     align-items: center;
 }
 
-
-header .logo-container, header .header-options {
+header .logo-container,
+header .header-options {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+header .logo-container a {
+    color: #FFF;
+    text-decoration: none;
+}
 
-header .header-content{
+header .header-content {
     flex: 1;
 }
