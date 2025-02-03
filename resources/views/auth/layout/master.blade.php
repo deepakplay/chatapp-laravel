@@ -26,9 +26,7 @@
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
         </div>
         <div class="auth-form">
-            <div class="logo-container">
-                <h1>ChatApp</h1>
-            </div>
+          
             @yield('content', '')
 
             <span class="copyright">Copyright &copy; {{ date('Y') }}. All rights Received</span>

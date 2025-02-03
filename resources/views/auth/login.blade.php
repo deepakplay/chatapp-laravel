@@ -6,6 +6,9 @@
 
 
 @section('content')
+    <div class="logo-container">
+        <h1>Welcome back!</h1>
+    </div>
     <form action="{{ route('auth.attempt') }}" method="POST">
         @csrf
         <div class="form-input @error('email'){{ 'error' }}@enderror">
